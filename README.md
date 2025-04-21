@@ -9,7 +9,7 @@ This repository contains a series of beginner-friendly programming assignments t
 - API: OpenMP  
 - Tool: [OnlineGDB](https://www.onlinegdb.com/online_c++_compiler)
 
-## 📚 Assignments
+## 📚 Bonus Assignments on DSA concepts
 
 | # | Title | Concept | Link |
 |--|-------|---------|------|
@@ -20,10 +20,9 @@ This repository contains a series of beginner-friendly programming assignments t
 | 5 | [Ticket Counter Queue](assignments/05_queue_ticket_counter) | Queue & Producer-Consumer | |
 
 ##  How to Use
-1. Fork or clone the repo.
-2. Navigate to any assignment folder.
-3. Read the problem and edit the provided `.cpp` files.
-4. Use `OnlineGDB` or your local compiler with OpenMP (`g++ -fopenmp`).
+1. Navigate to any assignment folder.
+2. Read the problem and edit the provided `.cpp` files.
+3. Use `OnlineGDB` or your local compiler with OpenMP (`g++ -fopenmp`).
 
 ##  Appendix
 - [How to Setup OpenMP](appendix/openmp_setup_guide.md)
