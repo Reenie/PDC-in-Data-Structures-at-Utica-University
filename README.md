@@ -72,11 +72,15 @@ It includes:
   year      = {2024},
   note      = {Accepted}
 }
-    
+```    
 📬 Contact
 
 Dr. Rutal Mahajan
+
 Assistant Professor, Department of Computer Science
+
 Utica University, New York, USA
+
 📧 rmahajan@utica.edu
+
 📧 https://www.linkedin.com/in/rutal-mahajan/ 
