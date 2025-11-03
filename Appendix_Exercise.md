@@ -75,31 +75,46 @@ you should use above mentioned directives to parallelize the two recursive calls
 3. Stack used as shared undo history
    
 **Scenario 1: Two pop() Operations on a Stack**
+
 Initial stack: [10, 20, 30]
+
 Thread A and Thread B both try to pop().
+
 **Guiding Questions:**
-•	What might happen if both read the top as 30 and try to pop it?
-•	What value will remain? Will one pop be "lost"?
+1. What might happen if both read the top as 30 and try to pop it?
+2. What value will remain? Will one pop be "lost"?
+
 **Scenario 2: One enqueue() and One dequeue() on a Queue**
+
 Initial queue: [A, B, C]
 Thread A enqueues D, Thread B dequeues an item.
+
 **Guiding Questions:**
-•	Could they interfere with each other's read/write pointers?
-•	What might go wrong with the front/back indicators?
+1. Could they interfere with each other's read/write pointers?
+2. What might go wrong with the front/back indicators?
+
 **Scenario 3: Stack Used as Shared Undo History**
+
 Imagine an undo stack shared by multiple tabs in a text editor. What could go wrong if two users press undo at the same time?
+
 **Expected Outcome for Instructor:** Students should be able to:
+
 •	Present simulated operation sequences.
 •	Identify problems (e.g., duplicated/removal conflict, skipped values).
 •	Gain an intuitive grasp that correct sequencing matters when sharing structures.
+
 **Instructor Notes:**
+
 •	This assignment does not require threads, synchronization, or parallel code.
 •	It is a reasoning-based activity designed to:
   o	Foster awareness of real-world complexity.
   o	Provide a segue into why thread safety is important.
   o	Encourage discussion about correctness and state consistency, even in a sequential mindset.
+
 **Optional Extension (non-assessed):**
+
 •	Share logs or visuals from actual concurrent code on OnlineGDB to show real anomalies, just for curiosity.
+
 
 ### 2.6 BFS, Stack, Queue Assignments
 - Implement BFS, Stack, Queue operations and explore parallelization opportunities  
