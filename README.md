@@ -20,7 +20,7 @@ It is intended for instructors and students learning **OpenMP-based parallelism 
 
 ## 📄 PDF Contents
 
-The full appendix/exercise material is available here: [https://github.com/Reenie/PDC-in-Data-Structures-at-Utica-University/blob/main/Appendix_Materials.pdf]
+The full appendix/exercise material is available here: [https://github.com/Reenie/PDC-in-Data-Structures-at-Utica-University/blob/main/Appendix_Materials.md]
 
 It includes:
 - Classroom exercise sheets  
