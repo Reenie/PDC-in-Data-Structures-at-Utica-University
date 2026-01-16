@@ -69,7 +69,7 @@ It includes:
   title     = {Integrating Parallel and Distributed Computing (PDC) Concepts into Data Structures and Algorithms},
   booktitle = {Topics in Parallel and Distributed Computing: From Concepts to the Classroom},
   publisher = {Springer},
-  year      = {2024},
+  year      = {2025},
   note      = {Accepted}
 }
 ```    
