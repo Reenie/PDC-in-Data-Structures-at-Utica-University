@@ -81,6 +81,6 @@ Assistant Professor, Department of Computer Science
 
 Utica University, New York, USA
 
-📧 rmahajan@utica.edu
+📧 rsmahajan@utica.edu
 
 📧 https://www.linkedin.com/in/rutal-mahajan/ 
